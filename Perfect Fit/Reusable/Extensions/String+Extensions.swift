@@ -1,0 +1,14 @@
+//
+//  String+Extensions.swift
+//  Perfect Fit
+//
+//  Created by Howie Long on 9/3/24.
+//
+
+import Foundation
+
+extension String {
+    var isNotEmpty: Bool {
+        return !isEmpty
+    }
+}

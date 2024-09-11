@@ -13,8 +13,23 @@
 		214C87A02C8804F100D3B719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214C879F2C8804F100D3B719 /* Assets.xcassets */; };
 		214C87A32C8804F100D3B719 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214C87A22C8804F100D3B719 /* Preview Assets.xcassets */; };
 		214C87AD2C8804F200D3B719 /* Perfect_FitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87AC2C8804F200D3B719 /* Perfect_FitTests.swift */; };
-		214C87B72C8804F200D3B719 /* Perfect_FitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87B62C8804F200D3B719 /* Perfect_FitUITests.swift */; };
-		214C87B92C8804F200D3B719 /* Perfect_FitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87B82C8804F200D3B719 /* Perfect_FitUITestsLaunchTests.swift */; };
+		214C87D52C88078300D3B719 /* Perfect_FitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87B62C8804F200D3B719 /* Perfect_FitUITests.swift */; };
+		214C87D62C88078D00D3B719 /* Perfect_FitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87B82C8804F200D3B719 /* Perfect_FitUITestsLaunchTests.swift */; };
+		214C87DA2C88086C00D3B719 /* ClothingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87D92C88086B00D3B719 /* ClothingListViewModel.swift */; };
+		214C87DD2C8808C700D3B719 /* ClothingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87DC2C8808C700D3B719 /* ClothingListView.swift */; };
+		214C87DF2C88098700D3B719 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87DE2C88098700D3B719 /* APIResponse.swift */; };
+		214C87E12C88099C00D3B719 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87E02C88099C00D3B719 /* NetworkService.swift */; };
+		214C87E32C8809B600D3B719 /* StringFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87E22C8809B600D3B719 /* StringFormatter.swift */; };
+		214C87E52C8809DC00D3B719 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87E42C8809DC00D3B719 /* String+Extensions.swift */; };
+		214C87E72C880A2000D3B719 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87E62C880A2000D3B719 /* Colors.swift */; };
+		214C87EC2C880ADE00D3B719 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 214C87EA2C880ADD00D3B719 /* Localizable.strings */; };
+		214C87F02C880D4A00D3B719 /* Perfect_FitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87B62C8804F200D3B719 /* Perfect_FitUITests.swift */; };
+		214C87F32C880F0E00D3B719 /* ClothingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87F22C880F0E00D3B719 /* ClothingDetailView.swift */; };
+		214C87F52C89212200D3B719 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87F42C89212200D3B719 /* ImagePicker.swift */; };
+		214C87F72C89408600D3B719 /* OutfitGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87F62C89408600D3B719 /* OutfitGeneratorView.swift */; };
+		214C87FB2C8AA5F300D3B719 /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C87FA2C8AA5F300D3B719 /* ClothingItem.swift */; };
+		214C87FF2C913F9D00D3B719 /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 214C87FE2C913F9C00D3B719 /* DeepLabV3.mlmodel */; };
+		214C88012C91420400D3B719 /* BackgroundRemover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C88002C91420400D3B719 /* BackgroundRemover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +61,20 @@
 		214C87B22C8804F200D3B719 /* Perfect FitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perfect FitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		214C87B62C8804F200D3B719 /* Perfect_FitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfect_FitUITests.swift; sourceTree = "<group>"; };
 		214C87B82C8804F200D3B719 /* Perfect_FitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfect_FitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		214C87D92C88086B00D3B719 /* ClothingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingListViewModel.swift; sourceTree = "<group>"; };
+		214C87DC2C8808C700D3B719 /* ClothingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingListView.swift; sourceTree = "<group>"; };
+		214C87DE2C88098700D3B719 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		214C87E02C88099C00D3B719 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		214C87E22C8809B600D3B719 /* StringFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringFormatter.swift; sourceTree = "<group>"; };
+		214C87E42C8809DC00D3B719 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		214C87E62C880A2000D3B719 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		214C87EB2C880ADD00D3B719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		214C87F22C880F0E00D3B719 /* ClothingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingDetailView.swift; sourceTree = "<group>"; };
+		214C87F42C89212200D3B719 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		214C87F62C89408600D3B719 /* OutfitGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitGeneratorView.swift; sourceTree = "<group>"; };
+		214C87FA2C8AA5F300D3B719 /* ClothingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
+		214C87FE2C913F9C00D3B719 /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DeepLabV3.mlmodel; path = ../../../../../Downloads/DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		214C88002C91420400D3B719 /* BackgroundRemover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRemover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				214C87982C8804EC00D3B719 /* Perfect Fit */,
-				214C87AB2C8804F200D3B719 /* Perfect FitTests */,
-				214C87B52C8804F200D3B719 /* Perfect FitUITests */,
 				214C87972C8804EC00D3B719 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +123,13 @@
 		214C87982C8804EC00D3B719 /* Perfect Fit */ = {
 			isa = PBXGroup;
 			children = (
-				214C87992C8804EC00D3B719 /* Perfect_FitApp.swift */,
+				214C87D42C88075700D3B719 /* Tests */,
+				214C87D32C88074800D3B719 /* Resources */,
+				214C87D22C88073400D3B719 /* Localization */,
+				214C87D12C88072500D3B719 /* Styleguide */,
+				214C87CB2C8806BB00D3B719 /* Reusable */,
+				214C87C62C88066F00D3B719 /* Features */,
+				214C87C52C88063400D3B719 /* App */,
 				214C879B2C8804EC00D3B719 /* ContentView.swift */,
 				214C879D2C8804EC00D3B719 /* Item.swift */,
 				214C879F2C8804F100D3B719 /* Assets.xcassets */,
@@ -113,21 +146,143 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		214C87AB2C8804F200D3B719 /* Perfect FitTests */ = {
+		214C87C52C88063400D3B719 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				214C87AC2C8804F200D3B719 /* Perfect_FitTests.swift */,
+				214C87992C8804EC00D3B719 /* Perfect_FitApp.swift */,
 			);
-			path = "Perfect FitTests";
+			path = App;
 			sourceTree = "<group>";
 		};
-		214C87B52C8804F200D3B719 /* Perfect FitUITests */ = {
+		214C87C62C88066F00D3B719 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				214C87C72C88068200D3B719 /* Clothing */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		214C87C72C88068200D3B719 /* Clothing */ = {
+			isa = PBXGroup;
+			children = (
+				214C87CA2C8806A600D3B719 /* Models */,
+				214C87C92C88069B00D3B719 /* Views */,
+				214C87C82C88069400D3B719 /* Controllers */,
+			);
+			path = Clothing;
+			sourceTree = "<group>";
+		};
+		214C87C82C88069400D3B719 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				214C87D92C88086B00D3B719 /* ClothingListViewModel.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		214C87C92C88069B00D3B719 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				214C87DC2C8808C700D3B719 /* ClothingListView.swift */,
+				214C87F22C880F0E00D3B719 /* ClothingDetailView.swift */,
+				214C87F62C89408600D3B719 /* OutfitGeneratorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		214C87CA2C8806A600D3B719 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				214C87FA2C8AA5F300D3B719 /* ClothingItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		214C87CB2C8806BB00D3B719 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				214C87D02C88071600D3B719 /* Extensions */,
+				214C87CF2C88070A00D3B719 /* Utils */,
+				214C87CE2C8806FC00D3B719 /* Services */,
+				214C87CC2C8806DF00D3B719 /* Models */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		214C87CC2C8806DF00D3B719 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				214C87DE2C88098700D3B719 /* APIResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		214C87CE2C8806FC00D3B719 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				214C87FE2C913F9C00D3B719 /* DeepLabV3.mlmodel */,
+				214C87E02C88099C00D3B719 /* NetworkService.swift */,
+				214C87F42C89212200D3B719 /* ImagePicker.swift */,
+				214C88002C91420400D3B719 /* BackgroundRemover.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		214C87CF2C88070A00D3B719 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				214C87E22C8809B600D3B719 /* StringFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		214C87D02C88071600D3B719 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				214C87E42C8809DC00D3B719 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		214C87D12C88072500D3B719 /* Styleguide */ = {
+			isa = PBXGroup;
+			children = (
+				214C87E62C880A2000D3B719 /* Colors.swift */,
+			);
+			path = Styleguide;
+			sourceTree = "<group>";
+		};
+		214C87D22C88073400D3B719 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				214C87E82C880A5800D3B719 /* en.lproj */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		214C87D32C88074800D3B719 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		214C87D42C88075700D3B719 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				214C87B62C8804F200D3B719 /* Perfect_FitUITests.swift */,
 				214C87B82C8804F200D3B719 /* Perfect_FitUITestsLaunchTests.swift */,
+				214C87AC2C8804F200D3B719 /* Perfect_FitTests.swift */,
 			);
-			path = "Perfect FitUITests";
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		214C87E82C880A5800D3B719 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				214C87EA2C880ADD00D3B719 /* Localizable.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				214C87A32C8804F100D3B719 /* Preview Assets.xcassets in Resources */,
+				214C87EC2C880ADE00D3B719 /* Localizable.strings in Resources */,
 				214C87A02C8804F100D3B719 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +416,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214C87FB2C8AA5F300D3B719 /* ClothingItem.swift in Sources */,
+				214C87F52C89212200D3B719 /* ImagePicker.swift in Sources */,
+				214C88012C91420400D3B719 /* BackgroundRemover.swift in Sources */,
+				214C87E52C8809DC00D3B719 /* String+Extensions.swift in Sources */,
+				214C87FF2C913F9D00D3B719 /* DeepLabV3.mlmodel in Sources */,
+				214C87F32C880F0E00D3B719 /* ClothingDetailView.swift in Sources */,
+				214C87E72C880A2000D3B719 /* Colors.swift in Sources */,
+				214C87DF2C88098700D3B719 /* APIResponse.swift in Sources */,
+				214C87DD2C8808C700D3B719 /* ClothingListView.swift in Sources */,
+				214C87E12C88099C00D3B719 /* NetworkService.swift in Sources */,
+				214C87E32C8809B600D3B719 /* StringFormatter.swift in Sources */,
+				214C87F72C89408600D3B719 /* OutfitGeneratorView.swift in Sources */,
+				214C87DA2C88086C00D3B719 /* ClothingListViewModel.swift in Sources */,
 				214C879C2C8804EC00D3B719 /* ContentView.swift in Sources */,
 				214C879E2C8804EC00D3B719 /* Item.swift in Sources */,
 				214C879A2C8804EC00D3B719 /* Perfect_FitApp.swift in Sources */,
@@ -271,6 +440,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				214C87AD2C8804F200D3B719 /* Perfect_FitTests.swift in Sources */,
+				214C87D62C88078D00D3B719 /* Perfect_FitUITestsLaunchTests.swift in Sources */,
+				214C87D52C88078300D3B719 /* Perfect_FitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214C87B92C8804F200D3B719 /* Perfect_FitUITestsLaunchTests.swift in Sources */,
-				214C87B72C8804F200D3B719 /* Perfect_FitUITests.swift in Sources */,
+				214C87F02C880D4A00D3B719 /* Perfect_FitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +467,17 @@
 			targetProxy = 214C87B32C8804F200D3B719 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214C87EA2C880ADD00D3B719 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214C87EB2C880ADD00D3B719 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		214C87BA2C8804F200D3B719 /* Debug */ = {
